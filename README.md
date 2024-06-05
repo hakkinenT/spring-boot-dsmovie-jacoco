@@ -11,18 +11,17 @@
 - [Modelo Conceitual](#modelo-conceitual)
 - [Documentação da API](#documentação-da-api)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Aprendizados](#aprendizados)
 - [Rodando localmente](#rodando-localmente)
 - [Rodando os testes](#rodando-os-testes)
 - [Autores](#autores)
 
 <a id="sobre-o-projeto"></a>
 ## Sobre o projeto
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Este projeto foi desenvolvido ao longo do curso Java Spring Expert da DevSuperior, ministrado pelo Professor Nelio Alves. O  objetivo deste projeto foi desenvolver uma API  de filmes e avaliações de filmes, aplicando os conceitos de Testes Unitários e de Integração e também de cobertura de testes usando a ferramenta Jacoco.
 
 <a id="modelo-conceitual"></a>
 ## Modelo Conceitual
-![App Class Diagram](https://via.placeholder.com/468x300?text=App+Class+Diagram+Here)
+![App Class Diagram](https://github.com/hakkinenT/assets/blob/master/dsmovie-modelo-conceitual.png)
 
 <a id="documentação-da-api"></a>
 ## Documentação da API
@@ -42,15 +41,10 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 - JPA/Hibernate
 - Bean Validation
 - Spring Security
-- Spring Security Test
 - OAuth2
 - JUnit
+- Spring Security Test
 - Jacoco
-
-<a id="aprendizados"></a>
-## Aprendizados
-
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
 
 <a id="rodando-localmente"></a>
 ## Rodando localmente
