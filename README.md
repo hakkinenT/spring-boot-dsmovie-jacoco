@@ -9,7 +9,9 @@
 ## Tabela de Conteúdo
 - [Sobre o projeto](#sobre-o-projeto)
 - [Modelo Conceitual](#modelo-conceitual)
+- [Requisitos](#requisitos)
 - [Documentação da API](#documentação-da-api)
+    - [Acessando localmente](#acessando-localmente) 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Rodando localmente](#rodando-localmente)
 - [Rodando os testes](#rodando-os-testes)
@@ -23,14 +25,43 @@ Este projeto foi desenvolvido ao longo do curso Java Spring Expert da DevSuperio
 ## Modelo Conceitual
 ![App Class Diagram](https://github.com/hakkinenT/assets/blob/master/dsmovie-modelo-conceitual.png)
 
+<a id="requisitos"></a>
+## Requisitos
+- [Java JDK (versão 17 ou superior)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Git](https://git-scm.com/downloads) - Sistema de controle de versão de código aberto
+- [Uma conta no Github](https://github.com/) - Plataforma de controle de versões
+- [Postman](https://www.postman.com/downloads/) ou [Insomnia](https://insomnia.rest/download) - Ferramentas para testar a API
+- [PostgreSQL (Opcional)](https://www.postgresql.org/download/) - Para rodar a aplicação localmente
+
 <a id="documentação-da-api"></a>
 ## Documentação da API
-1. [Rode a aplicação](#rodando-localmente)
-2. Acesse o endereço abaixo
-  ```bash
-    http://localhost:8080/swagger-ui.html
-  ```
 
+<a id="acessando-localmente"></a>
+### Acessando localmente
+
+1. [Rode a aplicação localmente](#rodando-localmente)
+2. Gere um token de acesso
+- Abra um ferramenta para testar a API (Postman, Insomnia...)
+- Acesse a url abaixo:
+```bash
+http://localhost:8080/oauth2/token
+```
+- Na aba Authorization, acrescente as seguintes informações:
+    - Em Auth Type selecione Basic Auth
+    - Preencha os campos Username e Password com os seguintes valores:
+
+        | Campo   | Valor       | Descrição                           |
+        | :---------- | :--------- | :---------------------------------- |
+        | Username | {{client-id}} | Valor do client-id definido no application.properties |
+        | Password | {{client-secret}} | Valor do client-secret definido no application.properties |
+
+- Envie a requisição e obtenha o token
+- Acesse o endereço:
+```bash
+  http://localhost:8080/swagger-ui.html
+```
+- Adicone o token em Authorize
+- Acesse as rotas
 
 <a id="tecnologias-utilizadas"></a>
 ## Tecnologias Utilizadas
