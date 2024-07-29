@@ -31,7 +31,6 @@ Este projeto foi desenvolvido ao longo do curso Java Spring Expert da DevSuperio
 - [Git](https://git-scm.com/downloads) - Sistema de controle de versão de código aberto
 - [Uma conta no Github](https://github.com/) - Plataforma de controle de versões
 - [Postman](https://www.postman.com/downloads/) ou [Insomnia](https://insomnia.rest/download) - Ferramentas para testar a API
-- [PostgreSQL (Opcional)](https://www.postgresql.org/download/) - Para rodar a aplicação localmente
 
 <a id="documentação-da-api"></a>
 ## Documentação da API
