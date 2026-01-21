@@ -1,12 +1,11 @@
 
-# DSMovie
+# DSMovie 🎬
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://github.com/hakkinenT/spring-boot-dsmovie-jacoco/blob/main/LICENSE) 
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
 
-# DSMovie 🎬
 
 API REST para avaliação de filmes, desenvolvida com foco em **qualidade de código**, **testes automatizados** e **análise de cobertura de testes** utilizando **Jacoco**.
 
